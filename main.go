@@ -14,6 +14,7 @@ import (
 	hook "github.com/robotn/gohook"
 )
 
+// TODO: make the clicking togglable by JKL
 func main() {
 	myApp := app.New()
 	myWindow := myApp.NewWindow("AutoKeyPress")
