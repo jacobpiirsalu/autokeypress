@@ -15,6 +15,7 @@ import (
 )
 
 // TODO: make the clicking togglable by JKL
+// TODO: figure out why app sometimes crashes (missing mutex for stopChan ?)
 func main() {
 	myApp := app.New()
 	myWindow := myApp.NewWindow("AutoKeyPress")
